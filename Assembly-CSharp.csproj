@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\HideWindow.cs" />
     <Compile Include="Assets\ObjectManager.cs" />
+    <Compile Include="Assets\PanelSwiper.cs" />
     <Compile Include="Assets\ShowWindow.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ObjectManager
+    - PanelSwiper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -17,6 +18,7 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -81,6 +83,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11426}
     - Class: 114
       Script: {instanceID: 11640}
+    - Class: 114
+      Script: {instanceID: 16278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,18 +184,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
@@ -302,7 +294,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 75f20cc09c605b6837b91f55308bdc65
+      Hash: bf945f5235a8ee3bc9726e472e78b637
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectManager
@@ -564,7 +556,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: de3db6defc08ec9bf425fc48c5156b89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PanelSwiper
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Kenit/Documents/GitHub/UStarCharSheet0.12.apk
+  playerPath: C:/Users/Kenit/Documents/GitHub/UStarCharSheet0.15.apk
