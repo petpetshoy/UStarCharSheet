@@ -54,37 +54,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 9918}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 9940}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 9978}
+      Script: {instanceID: 9942}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 10356}
+      Script: {instanceID: 10136}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10358}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 10380}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10396}
     - Class: 114
-      Script: {instanceID: 10980}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 10994}
+      Script: {instanceID: 10982}
     - Class: 114
-      Script: {instanceID: 11184}
+      Script: {instanceID: 10996}
     - Class: 114
-      Script: {instanceID: 11252}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 11254}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 16278}
+      Script: {instanceID: 11642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -112,6 +112,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: de3db6defc08ec9bf425fc48c5156b89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PanelSwiper
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -556,13 +562,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: de3db6defc08ec9bf425fc48c5156b89
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PanelSwiper
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Kenit/Documents/GitHub/UStarCharSheet0.15.apk
+  playerPath: C:/Users/Kenit/Documents/GitHub/UStarCharSheet0.151.apk
